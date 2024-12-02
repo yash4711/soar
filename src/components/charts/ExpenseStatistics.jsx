@@ -1,5 +1,5 @@
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
-import { Card } from "../ui/Card";
+import { Card } from "@/components/ui/Card";
 
 const data = [
   { name: "Entertainment", value: 30, color: "#2B3674" },

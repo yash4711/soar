@@ -1,25 +1,21 @@
 import { Suspense, lazy, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { fetchDashboardData } from "../services/api";
-import { CreditCard } from "../components/cards/CreditCard";
-import { CardSkeleton } from "../components/skeletons/CardSkeleton";
-import { ChartSkeleton } from "../components/skeletons/ChartSkeleton";
+import { fetchDashboardData } from "@/services/api";
+import { CreditCard } from "@/components/cards/CreditCard";
+import { CardSkeleton } from "@/components/skeletons/CardSkeleton";
+import { ChartSkeleton } from "@/components/skeletons/ChartSkeleton";
 import { Plus, Minus } from "lucide-react";
 
-import { AuthLayout } from "../components/layout/AuthLayout";
-import { Card } from "../components/ui/Card";
+import { AuthLayout } from "@/components/layout/AuthLayout";
+import { Card } from "@/components/ui/Card";
 
-const WeeklyActivity = lazy(
-  () => import("../components/charts/WeeklyActivity")
-);
+const WeeklyActivity = lazy(() => import("@/components/charts/WeeklyActivity"));
 const ExpenseStatistics = lazy(
-  () => import("../components/charts/ExpenseStatistics")
+  () => import("@/components/charts/ExpenseStatistics")
 );
-const BalanceHistory = lazy(
-  () => import("../components/charts/BalanceHistory")
-);
+const BalanceHistory = lazy(() => import("@/components/charts/BalanceHistory"));
 const QuickTransfer = lazy(
-  () => import("../components/transfers/QuickTransfer")
+  () => import("@/components/transfers/QuickTransfer")
 );
 
 function Dashboard() {

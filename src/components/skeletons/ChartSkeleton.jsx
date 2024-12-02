@@ -1,6 +1,6 @@
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import { Card, CardContent } from "../../components/ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 
 export function ChartSkeleton() {
   return (

@@ -1,5 +1,5 @@
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
-import { Card, CardContent } from "../ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 
 const data = [
   { name: "Sat", deposit: 200, withdraw: 400 },

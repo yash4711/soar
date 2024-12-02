@@ -2,9 +2,9 @@ import {
   setDashboardData,
   setLoading,
   setError,
-} from "../store/slices/dashboardSlice";
-import { loginSuccess, loginFailure } from "../store/slices/authSlice";
-import { mockUser, mockDashboardData } from "../lib/mockData";
+} from "@/store/slices/dashboardSlice";
+import { loginSuccess, loginFailure } from "@/store/slices/authSlice";
+import { mockUser, mockDashboardData } from "@/lib/mockData";
 
 // Mock API delay to simulate network request
 const MOCK_API_DELAY = 1000;

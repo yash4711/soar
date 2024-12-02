@@ -6,7 +6,7 @@ import {
   YAxis,
   Tooltip,
 } from "recharts";
-import { Card, CardContent } from "../ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 
 const data = [
   { month: "Jul", balance: 200 },

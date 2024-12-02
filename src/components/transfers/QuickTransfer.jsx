@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Card } from "../../components/ui/Card";
+import { Card } from "@/components/ui/Card";
 import { ChevronLeft, ChevronRight, Send } from "lucide-react";
 import { toast } from "react-hot-toast";
 

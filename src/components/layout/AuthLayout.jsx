@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { setSidebarOpen } from "../../store/slices/appConfigSlice";
+import { setSidebarOpen } from "@/store/slices/appConfigSlice";
 import { Header } from "./Header";
 import { Sidebar } from "./Sidebar";
 import { Toaster } from "react-hot-toast";

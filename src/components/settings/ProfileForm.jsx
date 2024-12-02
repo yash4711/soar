@@ -3,8 +3,8 @@ import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import DatePicker from "react-datepicker";
 import Cropper from "react-easy-crop";
-import { Button } from "../../components/ui/Button";
-import { Input } from "../../components/ui/Input";
+import { Button } from "@/components/ui/Button";
+import { Input } from "@/components/ui/Input";
 import { Pencil } from "lucide-react";
 import "react-datepicker/dist/react-datepicker.css";
 
